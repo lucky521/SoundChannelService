@@ -26,3 +26,12 @@
 *.exe
 *.out
 *.app
+
+
+
+# lu add
+*.pdb
+*.exe
+*.sdf
+Debug
+Release
