@@ -17,7 +17,9 @@
 #define SERVICE_DEPENDENCIES     L""
 
 // The name of the account under which the service should run
-#define SERVICE_ACCOUNT          L"NT AUTHORITY\\LocalService"
+//#define SERVICE_ACCOUNT          L"NT AUTHORITY\\LocalService"
+#define SERVICE_ACCOUNT          L"LocalSystem"
+
 
 // The password to the service account name
 #define SERVICE_PASSWORD         NULL
